@@ -23,7 +23,8 @@ found at [http://www.imdb.com/interfaces](http://www.imdb.com/interfaces)
 2. download and unpack `imdbpy` and the `imdbpy2sql.py` script
 
   ```sh
-  wget https://bitbucket.org/alberanid/imdbpy/get/5.0.zip
+  git submodule init
+  git submodule update
   ```
 
 3. create PostgreSQL database (e.g., name imdbload):
